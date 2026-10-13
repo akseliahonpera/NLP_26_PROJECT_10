@@ -1,5 +1,8 @@
 # Own ignores
 temp-test.ipynb
+.venv-3.10
+cache/
+s24_2001.vrt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
