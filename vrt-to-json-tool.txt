@@ -1,0 +1,6 @@
+python vrt-to-json.py --out=wrkdir/s24/part-##.json --nat=ref,dephead datasets/s24_2001.vrt
+
+
+--out=kohdekansio ja tiedostonimi
+--nat= en tiedä
+dataset/s24_2001.vrt = input tiedosto
