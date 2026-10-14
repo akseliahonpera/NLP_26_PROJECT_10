@@ -1,6 +1,12 @@
+Tekee yhden tiedoston!!
+============
 python vrt-to-json.py --out=wrkdir/s24/part-##.json --nat=ref,dephead datasets/s24_2001.vrt
+============
 
-
+Tekee useamman pienemmän tiedoston!!
+============
+python vrt-to-json.py --out=wrkdir/s24/part-##.json --limit=1000000  --nat=ref,dephead datasets/s24_2001.vrt
+============
 --out=kohdekansio ja tiedostonimi
 --nat= en tiedä
 dataset/s24_2001.vrt = input tiedosto

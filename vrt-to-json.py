@@ -184,7 +184,7 @@ def start(args):
 def finish(args):
     '''Finish a JSON object.'''
     if args.pos:
-        print(']}', end = '\n', file = args._ous)
+        print(']}', end = '', file = args._ous)
     else:
         print(']', end = '', file = args._ous)
 
@@ -267,7 +267,7 @@ def shiplist(args, sep, line):
     record = line.rstrip('\r\n').split('\t')
     print(sep, end = '', file = args._ous)
     print('[', end = '', file = args._ous)
-    for not_first, pair in enumerate(zip(args._names, record)):
+    for not_first, pair in enumerate(zip(args._names, record+"\n")):
         not_first and print(',', end = '', file = args._ous)
         name, val = pair
         if name in args._nats['data']:
