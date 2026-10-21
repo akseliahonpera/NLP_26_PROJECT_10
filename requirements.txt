@@ -3,3 +3,8 @@ openpyxl
 pandas
 numpy
 simplemma
+zipfile
+collections
+matplotlib
+zipfile
+json

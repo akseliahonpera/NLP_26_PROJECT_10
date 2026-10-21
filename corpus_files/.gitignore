@@ -1,0 +1,5 @@
+# https://graphite.com/guides/add-empty-dir
+# Ignore every file in this folder
+*
+# Except this one
+!.gitignore
