@@ -3,9 +3,6 @@ openpyxl
 pandas
 numpy
 simplemma
-zipfile
-collections
 matplotlib
-json
---upgrade git+https://github.com/fnielsen/afinn.git
+git+https://github.com/fnielsen/afinn.git
 scipy
