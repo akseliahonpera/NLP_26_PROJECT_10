@@ -6,5 +6,6 @@ simplemma
 zipfile
 collections
 matplotlib
-zipfile
 json
+--upgrade git+https://github.com/fnielsen/afinn.git
+scipy
