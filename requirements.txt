@@ -7,3 +7,6 @@ matplotlib
 git+https://github.com/fnielsen/afinn.git
 scipy
 nltk
+seaborn
+ollama
+tqdm
